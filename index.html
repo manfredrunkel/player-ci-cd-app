@@ -1,0 +1,98 @@
+<html lang="en" class=""><head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  <title>Video {PRODUCT_VERSION}</title>
+
+  <meta name="robots" content="noindex">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  <style class="INLINE_PEN_STYLESHEET_ID">
+    .col-center {
+	margin: 0 auto;
+}
+
+.login-wrapper {
+	padding: 40px 20px;
+	border: solid 1px #ddd;
+	border-top: solid 5px blue;
+	border-bottom-width: 2px;
+	border-radius: 3px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+  background-color:white;
+  color:black;
+}
+
+.login-wrapper h3 {
+	text-align: center;
+	margin-bottom: 30px;
+	margin-top: -15px;
+	color: #444;
+}
+
+.login-wrapper p {
+	text-align: justify;
+	margin-top: -15px;
+	margin-bottom: 15px;
+}
+
+.login-wrapper .check {
+	display: inline-block;
+  padding-top: 6px;
+}
+
+.login-wrapper input {
+	margin-bottom: 10px
+}
+
+.login-wrapper button {
+	float: right;
+	outline: 0!important;
+}
+
+.login-wrapper footer {
+	margin-top: 20px;
+}
+
+.login-wrapper button:hover {
+	background-color: blue;
+	color: #fff;
+}
+
+body {
+ background-color: white;
+ background-position: center; /* Center the image */
+ background-repeat: no-repeat; /* Do not repeat the image */
+ background-size: contain; /* Resize the background image to cover the entire container */
+}
+  </style>
+
+</head>
+
+<body>
+  <div class="row">
+	<div class="col-sm-3 col-center login-wrapper">
+		<form action="player.html" id="loginApp" method="get">
+			<h3>StreamApp v. {PRODUCT_VERSION} </h3>
+			<input type="text" placeholder="User" id="user" class="form-control">
+			<input type="password" placeholder="Password" id="password" class="form-control">
+			<footer class="form-footer">
+				<div class="check">
+				</div>
+				<button class="btn" id="login">Login</button>
+			</footer>
+		</form>
+	</div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+
+</body></html>
